@@ -112,5 +112,6 @@ app.mount('/', SPAStaticFiles(directory='build', html=True), name='build')
 async def read_item(request: Request):
 	return templates.TemplateResponse("index.html", {"request": request})
 """
+
 if __name__ == "__main__":
     uvicorn.run(app, host=settings.host,port=settings.port)
