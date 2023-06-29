@@ -1,8 +1,8 @@
 package com.dahttt.dahttt.exception;
 
-import com.database_service.constant.ApiStatus;
-import com.database_service.constant.MessageCode;
-import com.database_service.http.response.Response;
+import com.dahttt.dahttt.constant.ApiStatus;
+import com.dahttt.dahttt.constant.MessageCode;
+import com.dahttt.dahttt.http.response.Response;
 import com.google.gson.Gson;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpHeaders;

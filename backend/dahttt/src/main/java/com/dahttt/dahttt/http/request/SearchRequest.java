@@ -1,8 +1,8 @@
 package com.dahttt.dahttt.http.request;
 
-import com.database_service.constant.SearchSubject;
-import com.database_service.constant.SearchType;
-import com.database_service.util.ValueOfEnum;
+import com.dahttt.dahttt.constant.SearchSubject;
+import com.dahttt.dahttt.constant.SearchType;
+import com.dahttt.dahttt.util.ValueOfEnum;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;

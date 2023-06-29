@@ -1,7 +1,7 @@
 package com.dahttt.dahttt.exception;
 
-import com.database_service.constant.ApiStatus;
-import com.database_service.constant.MessageCode;
+import com.dahttt.dahttt.constant.ApiStatus;
+import com.dahttt.dahttt.constant.MessageCode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

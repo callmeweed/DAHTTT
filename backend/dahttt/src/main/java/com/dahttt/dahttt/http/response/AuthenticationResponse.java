@@ -1,6 +1,6 @@
 package com.dahttt.dahttt.http.response;
 
-import com.database_service.entity.User;
+import com.dahttt.dahttt.entity.User;
 
 import java.util.Collection;
 

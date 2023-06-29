@@ -1,7 +1,7 @@
 package com.dahttt.dahttt.http.response;
 
-import com.database_service.entity.Answer;
-import com.database_service.entity.Question;
+import com.dahttt.dahttt.entity.Answer;
+import com.dahttt.dahttt.entity.Question;
 
 import java.util.ArrayList;
 import java.util.List;
