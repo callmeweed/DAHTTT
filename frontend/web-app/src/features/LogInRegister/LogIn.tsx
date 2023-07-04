@@ -21,19 +21,6 @@ import ForgetPW from "./ForgetPW";
 import { useAppDispatch } from "../../app/hooks";
 import { LogInAsync } from "./AuthSlice";
 
-function Copyright(props: any) {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {"Copyright © "}
-      <Link color="inherit" href="">
-        {group}
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
-
 const theme = createTheme();
 
 export default function LogIn() {
