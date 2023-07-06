@@ -5,7 +5,7 @@ const fontTitleCss = {fontWeight: 600}
 
 export default function Password() {
   return (
-    <Grid container spacing={5}>
+    <Grid container spacing={5} style={{padding: "40px"}}>
       <Grid item xs={12} md={12}>
         <Typography variant="h4" component="h2" color="#072d94" align="left" sx={{ fontWeight: 700 }}>
           Change Password

@@ -8,7 +8,13 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         {PublicRouter.map((router) => (
-          <Route key={router.router} path={router.router} element={router.component} />
+          <Route key={router.router} path={router.router} 
+          element={router.router === '/log-in'?
+          router.component
+          :
+          <Layout>{router.component}</Layout>
+          }
+           />
         ))}
         {AfterLogInRouter.map((router) => (
           <Route key={router.router} path={router.router} element={<Layout>{router.component}</Layout>} />

@@ -45,7 +45,7 @@ export default function Layout(props: Props) {
   const dispatch = useAppDispatch();
   useEffect(() => {
     if (auth.accessToken.length === 0) {
-      navigate(Router_Login);
+      // navigate(Router_Login);
       console.log("not auth");
     }
   }, [])

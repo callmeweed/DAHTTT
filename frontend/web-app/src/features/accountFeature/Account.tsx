@@ -21,10 +21,10 @@ const genders = [
 
 export default function Account() {
   return (
-    <Grid container spacing={5}>
+    <Grid container spacing={5} style={{padding: "40px"}}>
       <Grid item xs={12} md={12}>
         <Typography variant="h4" component="h2" color="#072d94" align="left" sx={{ fontWeight: 700 }}>
-          Information
+          Account Information
         </Typography>
       </Grid>
       <Grid item xs={12} md={6}>

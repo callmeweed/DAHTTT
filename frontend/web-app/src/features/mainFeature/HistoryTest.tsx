@@ -40,14 +40,14 @@ function createData(
 }
 
 const rows = [
-  createData(1 , 'Math', 'Đề thi giữa kỳ', '17/11/2022', 9),
-  createData(2 , 'Physic', 'Đề thi giữa kỳ' , '19/11/2022' , 9.5),
-  createData(3 , 'Chemistry', 'Đề thi giữa kỳ' , '21/11/2022', 9)
+  createData(1 , 'Math', 'Đề thi giữa kỳ', '15/06/2023', 9),
+  createData(2 , 'Physic', 'Đề thi giữa kỳ' , '16/06/2023' , 9.5),
+  createData(3 , 'Chemistry', 'Đề thi giữa kỳ' , '17/06/2023', 9)
 ];
 
 export default function HistoryTest() {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} style={{padding: "40px"}}>
       <Grid item xs={12} md={12}>
         <Typography variant="h4" component="h2" color="#072d94" align="left" sx={{ fontWeight: 700 }}>
           Test History

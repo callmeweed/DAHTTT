@@ -17,9 +17,9 @@ export interface Router_Component {
   component: JSX.Element;
 }
 
-export const PublicRouter: Router_Component[] = [{ router: Router_Login, component: <LogIn /> }];
-
-export const AfterLogInRouter: Router_Component[] = [
+export const PublicRouter: Router_Component[] = [
+  { router: Router_Login, component: <LogIn /> },
+  //test
   { router: "/", component: <SearchOnline /> },
   { router: Router_SearchOnline, component: <SearchOnline /> },
   { router: Router_AutomaticTest, component: <AutomationTest /> },
@@ -27,6 +27,16 @@ export const AfterLogInRouter: Router_Component[] = [
   { router: Router_Account, component: <Account /> },
   { router: Router_Password, component: <Password /> },
   { router: Router_Upload, component: <Upload /> },
+];
+
+export const AfterLogInRouter: Router_Component[] = [
+  // { router: "/", component: <SearchOnline /> },
+  // { router: Router_SearchOnline, component: <SearchOnline /> },
+  // { router: Router_AutomaticTest, component: <AutomationTest /> },
+  // { router: Router_History, component: <HistoryTest /> },
+  // { router: Router_Account, component: <Account /> },
+  // { router: Router_Password, component: <Password /> },
+  // { router: Router_Upload, component: <Upload /> },
 ];
 
 export const PrivateRouter: Router_Component[] = [];

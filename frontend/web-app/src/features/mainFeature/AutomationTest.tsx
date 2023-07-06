@@ -113,8 +113,8 @@ export default function AutomationTest() {
 
   return (
     <>
-      {isExamSelected ? (
-        <Box sx={{ flexGrow: 1 }}>
+      {!isExamSelected ? (
+        <Box sx={{ flexGrow: 1, padding: "10px" }}>
           <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
             <Alert onClose={handleClose} severity="success" sx={{ width: "100%" }}>
               Nộp bài thi thành công
@@ -135,7 +135,7 @@ export default function AutomationTest() {
               <Box sx={BoxTitleCss}>
                 <AccessTimeIcon fontSize="medium" color="disabled" />
                 <Typography variant="h6" align="left" color="#c2c2c2" sx={TypoTitleCss}>
-                  16/11/2022
+                  16/06/2023
                 </Typography>
               </Box>
             </Grid>

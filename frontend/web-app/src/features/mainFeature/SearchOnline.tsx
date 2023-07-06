@@ -72,7 +72,7 @@ export default function SearchOnline() {
   );
 
   return (
-    <Box sx={{ width: "100%", display: "flex", alignItems: "center", flexDirection: "column" }}>
+    <Box sx={{ width: "100%", display: "flex", alignItems: "center", flexDirection: "column", paddingTop: "10px" }}>
       <Box sx={{ width: "80%" }}>
         <Paper
           component="form"
