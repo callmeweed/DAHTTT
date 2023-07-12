@@ -73,7 +73,7 @@ public class UserServiceImpl implements UserService{
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String encodedPassword = passwordEncoder.encode(newPassword);
         user.setPassword(encodedPassword);
-        user.setResetPasswordToken(null);
+        user.setResetPasswordToken("default");
 
         userRepository.save(user);
     }

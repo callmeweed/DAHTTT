@@ -73,7 +73,7 @@ public class ForgotPasswordController {
         MimeMessage message = mailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message);
 
-        helper.setFrom("Nhom13@gmail.com", "Nhom13");
+        helper.setFrom("trunghieunguyen221@gmail.com", "NhomDHTTT");
         helper.setTo(email);
 
         String subject = "Here's the link to reset your password";
